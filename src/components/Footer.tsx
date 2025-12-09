@@ -1,4 +1,4 @@
-import { Shield, Instagram, Twitter, Linkedin, Github, Mail } from 'lucide-react';
+import { Shield, Instagram, Twitter, Linkedin, Github, Mail, Phone, MapPin } from 'lucide-react';
 import Favicon from '@/assets/Favicon.svg';
 
 export default function Footer() {
@@ -85,12 +85,23 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-gray-400 text-sm text-center md:text-left">
-              © {currentYear} Sando Varghese Manavalan. All rights reserved.
-            </p>
+            <a href="https://kodryx.ai/" target="_blank" rel="noopener noreferrer" className="text-gray-400 text-sm text-center md:text-left">
+              © {currentYear} Kodryx AI. All rights reserved.
+            </a>
             <div className="flex items-center space-x-2">
-              <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              <span className="text-gray-400 text-sm font-mono">System Online</span>
+              
+              <Mail className="w-4 h-4 text-gray-400 text-sm font-mono"/> 
+              <a href='mailto:contact@kodryx.ai' className="text-gray-400 text-sm font-mono">contact@kodryx.ai</a>
+              
+              <span className="text-gray-400 text-sm font-mono"> | </span>
+
+              <Phone className="w-4 h-4 text-gray-400 text-sm font-mono"/> 
+              <a href='tel:+917207960011' className="text-gray-400 text-sm font-mono">+91 72079 60011</a>
+
+              <span className="text-gray-400 text-sm font-mono"> | </span>
+
+              <MapPin className="w-4 h-4 text-gray-400 text-sm font-mono"/> 
+              <span className="text-gray-400 text-sm font-mono">Hyderabad, 500032, India</span>
             </div>
           </div>
         </div>
