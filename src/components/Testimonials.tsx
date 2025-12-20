@@ -7,6 +7,7 @@ const testimonials = [
     text: 'Happy to inform Mr Sando, Cyber Crime Intervention Officier(CCIO) helped me to resolve the Fake Profile issue where an impostr had copied my photos, and was contacting my known security persons who were with me in Indian Army or NSG. With his help I was able to correctly report the problem and get the fake account blocked. Thanks to Sando whom I could contact through ISAC Foundation and CopConnect, he did the role of Cyber Crime First Responder. As a senior millitary officer, my profile was beign used for fake messages about some financial dealings, that has been prevented!',
     rating: 5,
     avatar: 'BB',
+    year: 2024,
   },
   {
     name: 'Kowork.co.im',
@@ -14,6 +15,7 @@ const testimonials = [
     text: 'I\'m thrilled to share my experience with Mr Sando Varghese, a WhatsApp recovery specialist who helped me regain acess to my hacked account. After falling victim to a hacking incident, I was introduced to Mr Sando Varghese through a trusted source. His professionalism, expertise, and dedication were evident from our first interaction. He guided me through the recovery process with patience and clarity, ensuring I understood each step. Thanks to his efforts, I successfully regained access to my WhatsApp account without any data loss. I highly recommend Mr Sando Varghese by a friend, and I\'m grateful for the recommendation that led me to his exceptional services. His expertise has saved me from potential harassment and identify theft. If you\'re looking for a reliable and skilled professional to assist with WhatsApp recovery, Mr Sando Varghese is the person to contact.',
     rating: 5,
     avatar: 'KC',
+    year: 2024,
   },
   {
     name: 'Raj Patel',
@@ -21,6 +23,7 @@ const testimonials = [
     text: 'Yesterday evening, I received a message from a friend asking me to forward a six-digit SMS code via WhatsApp. I complied-and that was all it took for my account to be hacked. I was locked out and unable to generate new codes, while calls and texts continued going out from my number. By this morning, nearly a dozen friends had called me in confusion, and I had to tell them not to answer or forward anything from my account. Then with a reference I approached ISAC CCIO Mr Sando Varghese. He Solved my issue at the earliest. I am a Senior Citizen and not well versed with WhatsApp issues. But Mr Sando Varghese made it so simple for me and recovered my WhatsApp account without any data loss. I am very grateful to him and ISAC Foundation for their support.',
     rating: 5,
     avatar: 'RP',
+    year: 2025,
   },
   {
     name: 'Saroja Lokesh',
@@ -28,6 +31,7 @@ const testimonials = [
     text: 'I am extremely grateful to Mr. Sando Varghese for his quick and professional support in recovering my hacked WhatsApp account. The issue was resolved within just 10 minutes, which truly reflects his expertise and efficiency. His prompt response and strong knowledge in cyber recovery made the entire process smooth and stress-free. Mr. Sando Varghese is a reliable recovery specialist and a great support for anyone facing cyber-related issues.',
     rating: 5,
     avatar: 'SL',
+    year: 2025,
   },
   {
     name: 'Emma Wilson',
@@ -35,6 +39,7 @@ const testimonials = [
     text: 'Excellent data recovery service. Retrieved all my important files from a broken Android device. 100% satisfied!',
     rating: 5,
     avatar: 'EW',
+    year: 2024,
   },
   {
     name: 'Raj Patel',
@@ -42,6 +47,7 @@ const testimonials = [
     text: 'Bypass FRP lock on my Samsung device. Quick, professional, and secure service. Will definitely use again!',
     rating: 5,
     avatar: 'RP',
+    year: 2024,
   },
 ];
 
@@ -92,7 +98,7 @@ export default function Testimonials() {
               <div className="mt-4 pt-4 border-t border-gray-700">
                 <div className="flex items-center justify-between text-sm">
                   <span className="text-green-400 font-semibold">✓ Verified Client</span>
-                  <span className="text-gray-500 font-mono">2024</span>
+                  <span className="text-gray-500 font-mono">{testimonial.year}</span>
                 </div>
               </div>
             </div>
